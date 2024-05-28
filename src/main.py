@@ -1,7 +1,5 @@
-from dotenv import load_dotenv
-load_dotenv
 from fastapi import FastAPI
-from src.User.Controller.UserController import user_router
+from src.User.Controller import user_router
 
 app = FastAPI()
 
